@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
-[RequireComponent(typeof(PlayerInput), typeof(TochingDirections), typeof(Damageable))]
+[RequireComponent(typeof(PlayerInput),  typeof(Damageable), typeof(TochingDirections))]
 
 public class PlayerController : MonoBehaviour
 {
